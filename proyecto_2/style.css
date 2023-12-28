@@ -1,0 +1,43 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(241, 208, 208);
+}
+
+.filter {
+  width: 12rem;
+  padding: 2em;
+  margin: 1rem;
+  background-color: #f0f0f0;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.product-card {
+  width: 15em;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 0.5em;
+  transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.8);
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}

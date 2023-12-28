@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tienda Online</title>
+  </head>
+  <body>
+    <section class="filter">
+      <!-- Primer filtro: Vendedores -->
+      <label for="sellerFilter">Filtrar por Vendedor:</label>
+      <select id="sellerFilter">
+        <!-- Options serán generados dinámicamente con JavaScript -->
+      </select>
+      <!-- Segundo filtro: Precio -->
+      <label for="priceFilter">Filtrar por Precio:</label>
+      <input type="number" id="priceFilter" placeholder="Ingrese precio" />
+      <button onclick="filterByPrice()">Buscar</button>
+      <!-- Botón para limpiar filtros -->
+      <button onclick="clearFilters()">Limpiar Filtros</button>
+    </section>
+    <section class="products">
+      <!-- Productos serán generados dinámicamente con JavaScript -->
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
